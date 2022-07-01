@@ -199,6 +199,10 @@
     <Compile Include="Migrations\202206300136322_ApplayAnnotationToCustomerName.Designer.cs">
       <DependentUpon>202206300136322_ApplayAnnotationToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202206300205028_RemoveAnnotation.cs" />
+    <Compile Include="Migrations\202206300205028_RemoveAnnotation.Designer.cs">
+      <DependentUpon>202206300205028_RemoveAnnotation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -307,6 +311,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202206300136322_ApplayAnnotationToCustomerName.resx">
       <DependentUpon>202206300136322_ApplayAnnotationToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206300205028_RemoveAnnotation.resx">
+      <DependentUpon>202206300205028_RemoveAnnotation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
