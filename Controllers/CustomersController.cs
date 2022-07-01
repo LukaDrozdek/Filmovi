@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Web.Mvc;
 using Filmovi.Models;
+using System.Data.Entity;
 
 namespace Filmovi.Controllers
 {
@@ -20,7 +21,7 @@ namespace Filmovi.Controllers
         }
         public ViewResult Index()
         {
-            var customers = _context.Customers.ToList();
+            var customers = _context.Customers.Include(c => c.MembershipType).ToList();
 
             return View(customers);
         }
