@@ -203,6 +203,14 @@
     <Compile Include="Migrations\202206300205028_RemoveAnnotation.Designer.cs">
       <DependentUpon>202206300205028_RemoveAnnotation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202207011151305_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\202207011151305_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>202207011151305_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207011152074_SetNameOfMembershipType.cs" />
+    <Compile Include="Migrations\202207011152074_SetNameOfMembershipType.Designer.cs">
+      <DependentUpon>202207011152074_SetNameOfMembershipType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -314,6 +322,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202206300205028_RemoveAnnotation.resx">
       <DependentUpon>202206300205028_RemoveAnnotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207011151305_AddNameToMembershipType.resx">
+      <DependentUpon>202207011151305_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207011152074_SetNameOfMembershipType.resx">
+      <DependentUpon>202207011152074_SetNameOfMembershipType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

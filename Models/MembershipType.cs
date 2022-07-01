@@ -11,5 +11,6 @@ namespace Filmovi.Models
         public short SingUpFee { get; set; }
         public byte DurationInMonths { get; set; }
         public byte DiscountRate { get; set; }
+        public string Name { get; set; }
     }
 }
