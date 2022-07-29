@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Web.Mvc;
 using Filmovi.Models;
+using Filmovi.ViewModels;
 using System.Data.Entity;
 
 namespace Filmovi.Controllers
@@ -38,7 +39,14 @@ namespace Filmovi.Controllers
 
         public ActionResult New()
         {
-            return View();
+            var membershipTypes = _context.MembershipTypes.ToList();
+            var viewModel = new NewCustomerViewModel
+            {
+                MembershipTypes = membershipTypes
+            };
+
+
+            return View(viewModel);
         }
 
     }
